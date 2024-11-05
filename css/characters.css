@@ -1,7 +1,7 @@
 .cardCharacters{
     width: 300px;
     height: 200px;
-    margin: 20px;
+    margin: 25px;
     font-family: Bona Nova SC;
 }
 
@@ -17,3 +17,4 @@
     -webkit-transition:all .9s ease;
     -webkit-transform:scale(1.25);
 }
+
