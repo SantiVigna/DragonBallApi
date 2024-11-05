@@ -21,9 +21,6 @@ function createPlanetCard ({id, name, description, image}){
               <h4 class="card-title">${name}</h4>
               <p class="card-text">${description}</p>
           </div>
-          <ul class="list-group list-group-flush">
-              <li class="list-group-item"></li>
-          </ul>
       </div>
   `;
 }
