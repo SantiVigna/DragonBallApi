@@ -14,18 +14,18 @@ async function fetchCharacterJson(){
   }
 }
 
-function createCharacterCard ({id, name, ki, maxKi, race, gender, description, image}){
-  return `<div class="card" >
+function createCharacterCard ({name, ki, maxKi, race, gender, image, affiliation}){
+  return `<div class="cardCharacters card" >
             <img class="card-img-top" src="${image}" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">${name}</h5>
-                <p class="card-text">${race} - ${gender}</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Ki: ${ki}</li>
-                <li class="list-group-item">Maximum Ki: ${maxKi}</li>
-
-            </ul>
+              <div class="card-body">
+                  <h5 class="card-title">${name}</h5>
+                  <p class="card-text">${race} - ${gender}</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Ki: ${ki}</li>
+                  <li class="list-group-item">Maximum Ki: ${maxKi}</li>
+                  <li class="list-group-item">Affiliation: ${affiliation}</li>
+              </ul>
         </div>
   `;
 }

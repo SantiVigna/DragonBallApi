@@ -15,8 +15,8 @@ async function fetchPlanetsJson(){
 }
 
 function createPlanetCard ({id, name, description, image}){
-  return `<div class="card" style="width: 18rem;">
-          <img src="${image}" class="card-img-top" alt="...">
+  return `<div class="cardPlanets card">
+          <img src="${image}" class="backgroundcard-img-top" alt="...">
           <div class="card-body">
               <h4 class="card-title">${name}</h4>
               <p class="card-text">${description}</p>

@@ -1,0 +1,16 @@
+.cardPlanets {
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    height: 650px;
+    font-family: init;
+}
+
+.cardPlanets img {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
