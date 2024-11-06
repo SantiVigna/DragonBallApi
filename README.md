@@ -19,5 +19,9 @@ The purpose of this project was to interact and use an external api from a web a
 ### Screenshots of the Project
 
 ![image](https://github.com/user-attachments/assets/9810d625-67af-403b-b857-bea5350b0724)
+
+---
 ![image](https://github.com/user-attachments/assets/11333eb0-750c-4368-9386-26c43973d0b7)
+
+---
 ![image](https://github.com/user-attachments/assets/22f066c9-c812-4b3f-8b9a-bc91b5f401d6)
